@@ -1,12 +1,26 @@
 
 .navbar{
-    background-color: #BFBFB8;
-    color: #35403A;
+    background-color: #302D40;
+    color: #2BD9A8;
+    text-align: center;
 
 }
-.navbar-nav {
 
-    
  
-  }
+@media (min-width: 991px){
+  #navbarNav{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+   }
 
+}
+
+.nav-link{
+  color:#d8dfdf; ;
+
+}
+
+.navbar-toggler{
+  color: #2BD9A8;
+}

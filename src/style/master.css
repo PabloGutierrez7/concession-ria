@@ -1,3 +1,53 @@
+/*
+cores
+#302D40
+#0F4037
+#2BD9A8
+#A7F2BA
+#0D0D0D
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
-  background-color: #BFBFB8;
+  background-color: #302D40;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.button {
+  background-color: #ffffff00;
+  color: azure;
+  width: 8.5em;
+  height: 2.9em;
+  border: #2BD9A8 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #2BD9A8;
+  cursor: pointer;
+  color: #0F4037;
+}
+
+.button svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.button:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em;
+  text-align: center;
+  
 }
