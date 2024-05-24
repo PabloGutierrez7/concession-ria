@@ -2,11 +2,8 @@
 .navbar{
     background-color: #302D40;
     color: #2BD9A8;
-    text-align: center;
-
 }
 
- 
 @media (min-width: 991px){
   #navbarNav{
     display: flex;
@@ -18,7 +15,12 @@
 
 .nav-link{
   color:#d8dfdf; ;
+  margin-right:20px;
 
+}
+
+.nav-link:hover{
+  color: #2BD9A8;
 }
 
 .navbar-toggler{
