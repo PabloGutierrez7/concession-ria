@@ -19,8 +19,8 @@ body{
 .button {
   background-color: #ffffff00;
   color: azure;
-  width: 8.5em;
-  height: 2.9em;
+  width: 9.9em;
+  height: 3.3em;
   border: #2BD9A8 0.2em solid;
   border-radius: 11px;
   text-align: right;
@@ -46,10 +46,11 @@ body{
   transform: translateX(5px);
 }
 
-.text {
-  margin: 0 1.5em;
+.txt-button{
+  width: 10.0em;
+  font-size: 0.9em;
   text-align: center;
-  
+
 }
 
 .botoes-e-midia{
