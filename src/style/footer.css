@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#copyright{
+    color: azure;
+    font-weight: 500;  
+}
+@media screen and (max-width: 600px){
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}

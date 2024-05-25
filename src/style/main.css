@@ -1,4 +1,6 @@
-
+main{
+    margin-bottom: 50px;
+}
 #title{
     color:#d8dfdf;
     text-align: center;
@@ -33,6 +35,7 @@ span{
     display: flex;
     align-items: center;
 }
+
 
 .title-2{
     color: azure;
@@ -102,4 +105,36 @@ span{
     text-decoration: none;
     
 }
+@media (max-width: 999px){
+    #img-historia{
+        display: none;
+    }
+
+}
+
+@media (max-width: 600px){
+  
+    .text-2{
+        font-size: 0.6em;
+    }
+
+    .text-qualidades{
+        font-size: 0.7em;
+        margin-left: 16px;
+    }
+
+    .botoes-e-midia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #phone_button{
+        width: 60%;
+        margin-top: 20px;
+    }
+
+
+}
+  
 
