@@ -81,6 +81,12 @@
         flex-direction: column;
         align-items: center;
     }
+    #button-aval{
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+    }
 
 }
 @media screen and (max-width: 600px){
