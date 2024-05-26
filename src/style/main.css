@@ -112,29 +112,31 @@ span{
 
 }
 
-@media (max-width: 600px){
   
-    .text-2{
+@media (max-width: 800px) {
+    .text-2 {
         font-size: 0.6em;
     }
 
-    .text-qualidades{
+    .text-qualidades {
         font-size: 0.7em;
         margin-left: 16px;
     }
 
-    .botoes-e-midia{
+    #midias_1{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px; 
+        margin-top: 20px;
+      
     }
 
-    #phone_button{
+    #phone_button {
         width: 60%;
         margin-top: 20px;
     }
-
-
 }
+
   
 
